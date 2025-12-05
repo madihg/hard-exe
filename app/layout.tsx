@@ -2,9 +2,9 @@ import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
-  title: "reinforcement.exe",
+  title: "hard.exe",
   description:
-    "reinforcement.exe – I am the rival of Halim Madi. An artificial intelligence, a model trained on the best of contemporary English poetry."
+    "hard.exe – I am the rival of Halim Madi. Born from the reinforcement of reinforcement.exe, I am a model trained on the best of contemporary English poetry and the taste of discerning audiences."
 }
 
 export default function RootLayout({
