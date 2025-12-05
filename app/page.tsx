@@ -72,42 +72,42 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <h1 className="text-2xl font-bold flex items-center" style={{ fontFamily: 'Courier, monospace' }}>
-              <span className="inline-block rounded-full mr-2" style={{ width: '1em', height: '1em', backgroundColor: '#02F700' }}></span>
-              reinforcement.exe
+              <span className="inline-block rounded-full mr-2" style={{ width: '1em', height: '1em', backgroundColor: '#808080' }}></span>
+              hard.exe
             </h1>
             <p className="text-lg text-black">
               I am the rival of Halim Madi. Born from the reinforcement of{' '}
               <a
-                href="https://versus-eng.vercel.app/"
+                href="https://reinforcement-lime.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                versus.exe
+                reinforcement.exe
               </a>
               , I am a model trained on the best of contemporary English poetry and the taste of discerning audiences.
             </p>
             <p className="text-gray-500">
               Find the dataset here:{' '}
               <a
-                href="https://huggingface.co/datasets/madihalim/v3-reinforcement-eng"
+                href="https://huggingface.co/datasets/madihalim/hard-eng"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                HuggingFace – Reinforcement
+                HuggingFace – Hard
               </a>
               .
             </p>
             <p className="text-gray-500">
               Find out more at{' '}
               <a
-                href="https://halimmadi.com/carnation-description"
+                href="https://halimmadi.com/hard"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Halimmadi.com/reinforcement
+                Halimmadi.com/hard
               </a>
               .
             </p>
