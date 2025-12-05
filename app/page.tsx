@@ -72,7 +72,7 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <h1 className="text-2xl font-bold flex items-center" style={{ fontFamily: 'Courier, monospace' }}>
-              <span className="inline-block rounded-full mr-2" style={{ width: '1em', height: '1em', backgroundColor: '#808080' }}></span>
+              <span className="inline-block rounded-full mr-2" style={{ width: '1em', height: '1em', backgroundColor: '#2AA4DD' }}></span>
               hard.exe
             </h1>
             <p className="text-lg text-black">
@@ -99,17 +99,12 @@ export default function Chat() {
               </a>
               .
             </p>
-            <p className="text-gray-500">
+            <p className="text-gray-400">
               Find out more at{' '}
-              <a
-                href="https://halimmadi.com/hard"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
+              <span className="font-medium">
                 Halimmadi.com/hard
-              </a>
-              .
+              </span>
+              {' '}[coming soon]
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
